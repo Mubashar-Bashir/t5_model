@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "t5model"
+version = "0.1.0"
+description = ""
+authors = ["Mubashar-Bashir <mubasharbashir003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+transformers = "^4.40.1"
+torch = "^2.3.0"
+torchvision = "^0.18.0"
+uvicorn = "^0.29.0"
+fastapi = "^0.110.3"
+sentencepiece = "^0.2.0"
+protobuf = "^5.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
